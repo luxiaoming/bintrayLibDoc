@@ -40,31 +40,57 @@ AndroidStuio快速发布开源项目到Jcenter/Bintray
 
 主要完成2步骤里面的变量初始化。
 这里我们看到一些值
+
 项目组
+
 PROJ_GROUP=com.xm.core
+
 项目版本号
+
 PROJ_VERSION=0.0.1
+
 项目名字
+
 PROJ_NAME=core
+
 项目地址
+
 PROJ_WEBSITEURL=https://github.com/luxiaoming/xmCore
+
 项目提交问题地址
+
 PROJ_ISSUETRACKERURL=https://github.com/luxiaoming/xmCore/issues
+
 项目git地址
+
 PROJ_VCSURL=https://github.com/luxiaoming/xmCore.git
+
 项目描述
+
 PROJ_DESCRIPTION=android app Development Kit
+
 项目artifactId
+
 PROJ_ARTIFACTID=core
+
 作者id
+
 DEVELOPER_ID=code_gg
+
 作者名字
+
 DEVELOPER_NAME=luxiaoming
+
 作者联系方式
+
 DEVELOPER_EMAIL=332324956@qq.com
+
 如果成功后，我们使用的时候使用的是：
+
 PROJ_GROUP:PROJ_ARTIFACTID:PROJ_VERSION
+
 这里就会是：
+
 compile ‘com.xm.core:core:0.0.1’
 
 4 在根节点的local.properties 添加
